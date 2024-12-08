@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card"
 import { BookOpen, Users, MessageSquare, Target } from 'lucide-react'
 
 export function TeachingMethod() {
+   
   const methods = [
     {
       icon: <BookOpen className="w-8 h-8" />,
@@ -17,26 +18,27 @@ export function TeachingMethod() {
       description: "Engaging group discussions and peer learning opportunities"
     },
     {
-      icon: <MessageSquare className="w-8 h-8" />,
+      icon: <MessageSquare className="w-8 h-8 " />,
       title: "Real-world Practice",
       description: "Practical exercises based on real-life scenarios"
     },
     {
-      icon: <Target className="w-8 h-8" />,
+      icon: <Target className="w-8 h-8" color="blue" />,
       title: "Personalized Feedback",
       description: "Regular assessments and individualized guidance"
     }
   ]
+   
 
   return (
-    <section className="py-20 bg-emerald-50 dark:bg-emerald-900/20">
+    <section className="py-20   ">
       <div className="container px-4">
       <motion.h2
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.5 }}
   viewport={{ once: true }}
-  style={{ className: "text-4xl font-bold text-center mb-16" }}
+  className= "text-4xl font-bold text-center mb-16 bg-blue-100" 
 >
   Our Method of Teaching
 </motion.h2>
@@ -55,11 +57,11 @@ export function TeachingMethod() {
               viewport={{ once: true }}
             >
               <Card className="p-6 text-center h-full hover:shadow-lg transition-shadow">
-                <div className="text-emerald-600 mb-4 flex justify-center">
+                <div className="text-blue-600 mb-4 flex justify-center">
                   {method.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{method.title}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{method.description}</p>
+                <p className="text-gray-600 ">{method.description}</p>
               </Card>
             </motion.div>
           ))}

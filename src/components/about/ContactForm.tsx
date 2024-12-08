@@ -28,7 +28,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-md mx-auto">
+    <div className="bg-white  p-8 rounded-lg shadow-lg max-w-md mx-auto">
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export function ContactForm() {
       <h3 className="text-2xl font-bold mb-6 text-center">Get in Touch</h3>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700  mb-1">Name</label>
           <Input
             id="name"
             type="text"
@@ -50,7 +50,7 @@ export function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+          <label htmlFor="email" className="block text-sm font-medium text-gray-700  mb-1">Email</label>
           <Input
             id="email"
             type="email"
@@ -61,7 +61,7 @@ export function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+          <label htmlFor="message" className="block text-sm font-medium text-gray-700  mb-1">Message</label>
           <Textarea
             id="message"
             value={message}

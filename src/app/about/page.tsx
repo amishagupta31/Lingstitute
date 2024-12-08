@@ -8,14 +8,14 @@ import { ContactForm } from "@/components/about/ContactForm"
 
 export default function About() {
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <div className="flex flex-col min-h-screen bg-blue-100 ">
       <Header />
       
       <main className="flex-1">
         <MissionSection />
         <WhyChooseUs />
         <TeachingMethod />
-        <section className="py-20 bg-emerald-50 dark:bg-emerald-900/20">
+        <section className="py-20 bg-blue-100">
           <div className="container px-4">
             <h2 className="text-4xl font-bold text-center mb-16">Contact Us</h2>
             <ContactForm />
