@@ -6,43 +6,60 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { MessageCircle } from 'lucide-react';
+import aeasy from '/public/course.jpg'
+import abc from '/public/grammer.jpg'
+import usa from '/public/studymaterials.jpg'
+import dfd from '/public/vocabulary.jpg'
+import qqq from '/public/practiceque.jpg'
+import dsds from '/public/linkedin.jpg'
+import deb from '/public/debate.jpg'
+import dis from '/public/discussion.jpg'
+import busi from '/public/businesscommunication.jpg'
+import pre from '/public/presentationskills.jpg'
+import inter from '/public/interactiveskills.jpg'
+import micro from '/public/microsoft.jpg'
+import ai from '/public/aitools.jpg'
+import interactive from '/public/interactivegames.jpg'
+import etique from '/public/etiquettes.jpg'
+
+
 
 
 const languageFeatures = [
   {
     title: "Course Validity",
     description: "Enroll in courses with flexible timelines and lifetime course validity period. Learn at your own space and at your convenience.",
-    image: "/course.jpg?height=200&width=200",
+    image:  aeasy,
     color: "from-blue-500/20 to-purple-500/20"
   },
   {
     title: "Complete Grammar Classes",
     description: "Master English grammar with comprehensive, easy-to-follow grammar classes covering all key topics.",
-    image: "/grammer.jpg?height=200&width=200",
+    image: abc,
     color: "from-yellow-500/20 to-orange-500/20"
   },
   {
     title: "Study Material",
     description: "Get access to a wide range of study materials, including textbooks, worksheets, and practice exercises.",
-    image: "/studymaterials.jpg?height=200&width=200",
+    image:  usa,
     color: "from-emerald-500/20 to-teal-500/20"
   },
   {
     title: "Vocabulary Builder",
     description: "Expand your vocabulary with daily word lists, quizzes, and real-life usage examples.",
-    image: "/vocabulary.jpg?height=200&width=200",
+    image:  dfd,
     color: "from-pink-500/20 to-rose-500/20"
   },
   {
     title: "Practice Questions",
     description: "Enhance your skills with a variety of practice questions to assess your learning progress.",
-    image: "/practiceque.jpg?height=200&width=200",
+    image:  qqq,
     color: "from-violet-500/20 to-indigo-500/20"
   },
   {
     title: "LinkedIn Learning",
     description: "Optimize your LinkedIn profile to attract opportunities and boost your visibility.",
-    image: "/linkedin.jpg?height=full&width=auto",
+    image:  dsds,
     color: "from-violet-500/20 to-indigo-500/20"
   }
 ]
@@ -51,56 +68,56 @@ const softSkills = [
   {
     title: "Debate",
     description: "Participate in debates to improve critical thinking, argument formulation, and communication skills.",
-    image: "/debate.jpg?height=auto&width=auto",
+    image:  deb,
     color: "from-cyan-500/20 to-purple-500/20"
   },
   {
     title: "Discussion",
     description: "Engage in discussions to enhance your ability to express ideas clearly and listen actively.",
-    image: "/discussion.jpg?height=auto&width=auto",
+    image:  dis,
      color: "from-green-500/20 to-purple-500/20"
      
   },
   {
     title: "Business Communication",
     description: "Learn professional communication skills to succeed in a corporate environment.",
-    image: "/businesscommunication.jpg?height=200&width=200",
+    image:  busi,
      color: "from-pink-500/20 to-purple-500/20"
   },
   {
     title: "Presentation Skills",
     description: "Master the art of delivering impactful presentations with confidence.",
-    image: "/presentationskills.jpg?height=200&width=200",
+    image:  pre,
      color: "from-violet-500/20 to-purple-500/20"
   },
   {
     title: "Interactive Skills",
     description: "Develop interpersonal skills and improve your ability to interact effectively with others.",
-    image: "/interactiveskills.jpg?height=200&width=200",
+    image:  inter,
      color: "from-violet-500/20 to-blue-500/20"
   },
   {
     title: "Learn Microsoft Tools",
     description: "Gain proficiency in essential Microsoft Office tools such as Word, Excel, and PowerPoint.",
-    image: "/microsoft.jpg?height=200&width=200",
+    image:  micro,
      color: "from-indigo-400/20 to-purple-500/20"
   },
   {
     title: "AI Tools to Boost Productivity",
     description: "Learn to leverage AI tools to enhance your productivity and workflow.",
-    image: "/aitools.jpg?height=200&width=200",
+    image:  ai,
      color: "from-sky-500/20 to-purple-500/20"
   },
   {
     title: "Interactive Games to Build Networking",
     description: "Enhance your networking skills through engaging interactive games and activities.",
-    image: "/interactivegames.jpg?height=200&width=200",
+    image:  interactive,
      color: "from-red-500/20 to-purple-500/20"
   },
   {
     title: "  Etiquettes ",
     description: "Master professional etiquette with engaging activities to enhance your networking .",
-    image: "/etiquettes.jpg?height=200&width=200",
+    image:  etique,
      color: "from-violet-500/20 to-purple-500/20"
   }
 ]

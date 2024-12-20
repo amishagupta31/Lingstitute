@@ -10,32 +10,32 @@ import { FeedbackForm } from "@/components/FeedbackForm"
 export default function Feedback() {
   const feedbacks = [
     {
-      name: "John Doe",
+      name: "Rohan",
       role: "Marketing Professional",
       content: "Lingstitute has transformed my communication skills. The courses are well-structured and the instructors are top-notch."
     },
     {
-      name: "Jane Smith",
+      name: "Jashmine",
       role: "Software Engineer",
       content: "The soft skills training here is unparalleled. It has significantly boosted my confidence in professional settings."
     },
     {
-      name: "Alex Johnson",
+      name: "Ankita",
       role: "Business Analyst",
       content: "The personalized feedback and interactive sessions have made learning English enjoyable and effective. Highly recommended!"
     },
     {
-      name: "Emily Brown",
+      name: "Isha",
       role: "HR Manager",
       content: "Lingstitute's courses have helped me improve my business communication skills immensely. It's been a game-changer for my career."
     },
     {
-      name: "Michael Lee",
+      name: "Rahul",
       role: "Graduate Student",
       content: "As an international student, Lingstitute has been instrumental in helping me adapt to academic writing and presentations in English."
     },
     {
-      name: "Sarah Parker",
+      name: "Sarthak",
       role: "Customer Service Representative",
       content: "The courses here have significantly improved my ability to communicate with clients. I feel more confident in my day-to-day work."
     }
