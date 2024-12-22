@@ -6,6 +6,7 @@ import { BookOpen, Users, ArrowRight, Award } from 'lucide-react'
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import { FeedbackCard } from "@/components/FeedbackCard"
+import home from '/public/homeimage.jpg'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
               
               <Button size="lg" className=" bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:bg-gradient-to-r hover:from-blue-600 hover:via-purple-600 hover:to-pink-700 text-white gap-2">
               <a
-        href="https://wa.me/1234567890"
+        href="https://wa.me/9492022599"
         target="_blank"
         rel="noopener noreferrer"
               >  Start Your Journey  
@@ -39,7 +40,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-video md:aspect-square">
               <Image
-                src="/homeimage.jpg?height=600&width=600"
+                src= {home}
                 alt="Students collaborating"
                 className="object-cover rounded-2xl shadow-2xl"
                 fill

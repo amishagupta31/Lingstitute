@@ -39,9 +39,9 @@ export function Header() {
               Enroll Now
             </Button>
             <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-              <Link href="/enroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
+              {/* <Link href="/enroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
                 Enroll Online
-              </Link>
+              </Link> */}
               <Link href="https://wa.me/+9492022599" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
                 <MessageCircle className="w-4 h-4 inline-block mr-2" />
                 Enroll via WhatsApp
@@ -77,9 +77,9 @@ export function Header() {
                 <Button variant="outline" className="w-full border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
                   Enroll Now
                 </Button>
-                <Link href="/enroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 rounded-md">
+                {/* <Link href="/enroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 rounded-md">
                   Enroll Online
-                </Link>
+                </Link> */}
                 <Link href="https://wa.me/+9492022599" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 rounded-md">
                   <MessageCircle className="w-4 h-4 inline-block mr-2" />
                   Enroll via WhatsApp

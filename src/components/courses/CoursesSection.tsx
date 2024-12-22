@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -125,7 +125,7 @@ const softSkills = [
 function FeatureCard({ title, description, image, color, index }: {
   title: string
   description: string
-  image: string
+  image: StaticImageData | string
   color?: string
   index: number
 }) {
